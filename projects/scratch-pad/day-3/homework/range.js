@@ -23,12 +23,19 @@
  */
 function range(start, end) {
     // YOUR CODE GOES BELOW HERE //
-    
-    
-    
-    
+    let newArr = [];
+    for (let i = start; i <= end; i++) {
+            newArr.push(i);
+        }
+      if(end < start){
+        for (let i = start; i >= end; i--) {
+        newArr.push(i);
+    } 
+    }
+    return newArr;
+}    
     // YOUR CODE GOES ABOVE HERE //
-}
+
 
 
 

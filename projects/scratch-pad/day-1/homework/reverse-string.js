@@ -21,10 +21,12 @@
 
 function reverseString(input) {
     // YOUR CODE GOES BELOW HERE //
-    
-    
-    
-    
+  var gogo = '';
+  for(var i = input.length - 1; i >= 0; --i ){
+    gogo += input[i];
+  }
+    return gogo;
+    //return input.split('').reverse().join('');
     // YOUR CODE GOES ABOVE HERE //
 }
 
